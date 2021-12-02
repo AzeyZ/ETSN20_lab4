@@ -17,7 +17,7 @@ public class search {
             while(file.hasNextLine()) {
                 String sentence = file.nextLine();
 
-                if(sentence.contains(pattern) {
+                if(sentence.toLowerCase().contains(pattern.toLowerCase()) {
                     System.out.println(sentence);
                 }
             }
